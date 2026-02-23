@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import MovieCard from "../components/MovieCard.jsx";
 
-const baseURL = "https://assignmentweek7-dkg7.onrender.com/";  
+const baseURL = "https://assignmentweek7-dkg7.onrender.com";  
 
 export default function GenreMoviesPage() {
   const { genreName } = useParams();

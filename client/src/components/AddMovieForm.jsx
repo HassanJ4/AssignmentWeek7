@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const baseURL = "https://assignmentweek7-dkg7.onrender.com/";
+const baseURL = "https://assignmentweek7-dkg7.onrender.com";
 
 export default function AddMovieForm() {
   const [title, setTitle] = useState("");

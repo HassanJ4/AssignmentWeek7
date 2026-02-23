@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import GenreCard from "../components/GenreCard.jsx";
 
-const baseURL = "https://assignmentweek7-dkg7.onrender.com/";
+const baseURL = "https://assignmentweek7-dkg7.onrender.com";
 
 export default function GenresPage() {
   const [genres, setGenres] = useState([]);
