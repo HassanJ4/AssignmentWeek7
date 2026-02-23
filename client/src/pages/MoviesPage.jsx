@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard.jsx";
 
-const baseURL = "http://localhost:4242";
+const baseURL = "https://assignmentweek7-dkg7.onrender.com/";
 
 export default function MoviesPage() {
   const [movies, setMovies] = useState([]);
